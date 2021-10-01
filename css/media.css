@@ -1,0 +1,22 @@
+@media(max-width: 1140px) {
+   header h1{
+      font-size: 60px;
+   }
+   .wrapper-portfolio{
+      justify-content: center;
+   }
+   .wrapper-footer{
+      justify-content: space-around;
+   }
+}
+
+@media(max-width: 850px) {
+   .wrapper-footer{
+      flex-wrap: wrap-reverse;
+      justify-content: center;
+   }
+
+   .footer-name, .footer-ikonce, .footer-contakt{
+      margin-bottom: 25px;
+   }
+}
